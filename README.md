@@ -2,7 +2,7 @@
 
 A web app that takes a news article URL and returns a one-sentence AI-generated summary.
 
-**Live Demo:** [AI Article Summarizer](https://article-summarizer-ptshlsj1z-dgrabos-projects.vercel.app)
+**Live Demo:** [AI Article Summarizer](https://article-summarizer-lemon-nine.vercel.app/)
 
 ## Tech Stack
 
