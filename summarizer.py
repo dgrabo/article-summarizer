@@ -20,11 +20,11 @@ def fetch_article(url):
 def generate_summary(text):
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
-        max_tokens=100,
+        max_tokens=200,
         messages=[
             {
                 "role": "user",
-                "content": f"Summarize the following article in exactly one sentence:\n\n{text}",
+                "content": f"Summarize the following article in one concise sentence, no more than 30 words:\n\n{text}",
             }
         ],
     )
