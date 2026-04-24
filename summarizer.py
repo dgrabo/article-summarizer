@@ -24,7 +24,7 @@ def generate_summary(text):
         messages=[
             {
                 "role": "user",
-                "content": f"Summarize the following article in one concise sentence, no more than 30 words:\n\n{text}",
+                "content": f"Summarize the following article in one sentence, no more than 30 words:\n\n{text}",
             }
         ],
     )
